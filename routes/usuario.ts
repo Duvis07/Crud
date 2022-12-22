@@ -12,7 +12,7 @@ import {
 //creamos el router
 const router = Router();
 
-//definimos las rutas
+//definimos las rutas de la api
 router.get("/", getUsuarios);
 router.get("/:id", getUsuario);
 router.post("/", postUsuarios);

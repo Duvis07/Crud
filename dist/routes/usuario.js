@@ -5,7 +5,7 @@ const express_1 = require("express");
 const usuarios_1 = require("../controllers/usuarios");
 //creamos el router
 const router = (0, express_1.Router)();
-//definimos las rutas
+//definimos las rutas de la api
 router.get("/", usuarios_1.getUsuarios);
 router.get("/:id", usuarios_1.getUsuario);
 router.post("/", usuarios_1.postUsuarios);
